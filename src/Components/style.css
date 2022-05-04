@@ -1,0 +1,138 @@
+.content {
+    position: relative;
+    width: 332px;
+    height: 445px;
+    background: #FDCA40;
+    border-radius: 11px;
+}
+.imgBx {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 56px;
+    top: 56px;
+    background: #C4C4C4;
+    border-radius: 115px;
+}
+img{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 0px;
+    top: 0px;
+    border-radius: 11px;
+}
+.social {
+    position: absolute;
+    width: 165.01px;
+    height: 40px;
+    left: 83px;
+    top: 250px;
+}
+.name {
+    position: absolute;
+    width: 100%;
+    height: 62px;
+    top: 298px;
+    background: #FDCA40;
+}
+.nametx {
+    position: absolute;
+    width: 100%;
+    height: 29px;
+    top: 33px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    justify-content: center;
+    color: #001427;
+}
+.about {
+    position: absolute;
+    width: 100%;
+    height: 22px;
+    top: 367px;
+}
+.abouttx {
+    position: absolute;
+    width: 100%;
+    height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    color: #454545;
+}
+.lk {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 125.01px;
+    top: 40px;
+    font-size: 40px;
+    color: #001427;
+    text-shadow: none;
+}
+.gh {
+    position: absolute;
+    width: 41.01px;
+    height: 40px;
+    left: 62px;
+    top: 40px;
+    font-size: 40px;
+    color: #001427;
+    text-shadow: none;
+}
+.ml {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 40px;
+    font-size: 40px;
+    color: #001427;
+    text-shadow: none;
+}
+.content:hover .ml{
+    transition: top 600ms;
+    top: 0px;
+}
+.content:hover .gh{
+    transition: top 900ms;
+    top: 0px;
+}
+.content:hover .lk{
+    transition: top 1200ms;
+    top: 0px;
+}
+.lk:hover {
+    color: white;
+}
+.ml:hover {
+    color: white;
+}
+.gh:hover {
+    color: white;
+}
+
+.containercards {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-gap: 2rem;
+    row-gap: 5rem;
+  }
+  
+@media (min-width: 600px) {
+    .containercards { grid-template-columns: repeat(2, 1fr); }
+}
+  
+@media (min-width: 900px) {
+    .containercards { grid-template-columns: repeat(3, 1fr); }
+}

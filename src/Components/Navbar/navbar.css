@@ -1,0 +1,30 @@
+a {
+  font-size: 20px;
+  color: rgb(5, 5, 39);
+  font-family: 'Montserrat',sans-serif;
+}
+a:hover{
+  animation: fade-up;
+  color: white;
+}
+.navbar {
+  background: transparent;
+  color: white;
+  padding: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.navbar-brand {
+  font-size: 12px !important;
+  padding: 0px !important;
+}
+.logo {
+  justify-content: flex-start;
+  margin-top:0px;
+  margin-left:6px;
+  width: 107px;
+  height: 99px;
+}
+.justify-content-end {
+  padding-right: 38px;
+}
